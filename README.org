@@ -90,7 +90,7 @@ After the process is finished your KeePass database can be found in =./exports= 
 ** Docker (recommended)
 
 #+begin_src shell
-docker-compose run import-bitwarden-to-keepass
+docker-compose run bitwarden-to-keepass
 #+end_src
 
 - You will be interactively asked to login with [[https://bitwarden.com/help/article/cli/][bitwarden-cli]]
